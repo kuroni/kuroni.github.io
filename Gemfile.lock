@@ -12,6 +12,7 @@ GEM
     ffi (1.15.5)
     forwardable-extended (2.6.0)
     http_parser.rb (0.8.0)
+    hyde (0.0.4)
     i18n (1.10.0)
       concurrent-ruby (~> 1.0)
     jekyll (4.2.2)
@@ -64,18 +65,21 @@ GEM
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     unicode-display_width (1.8.0)
+    webrick (1.7.0)
 
 PLATFORMS
   arm64-darwin-21
 
 DEPENDENCIES
   http_parser.rb (~> 0.6.0)
+  hyde (~> 0.0.4)
   jekyll (~> 4.2.2)
   jekyll-feed (~> 0.12)
   minima (~> 2.5)
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
+  webrick (~> 1.7)
 
 BUNDLED WITH
    2.3.15
