@@ -4,15 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi! I am Trung Dang, but I often go by the name Kuroni on the Internet and IRL. Welcome to my blog where I talk about things that I am personally interested in :)
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I'm most well-known for my appearance in various competitive programming communities and contests, most notably on [Codeforces](https://codeforces.com/profile/Kuroni). Other than CP, I am also interested in a wide range of topics, including algorithmic game theory, algorithm design in general, rhythm games, psychology (especially abnormal psychology), and general life experience. Therefore, my blog will not be exclusively CP content, so if you're looking for Yet Another Competitive Programming Blog this might not be for you.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+If you are somehow weird enough to like my content, feel free to bookmark this blog or share this with your friends and family (or don't, you do you).
