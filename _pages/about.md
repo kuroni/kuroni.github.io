@@ -12,4 +12,4 @@ I am a Computer Science undergraduate at Purdue University. As of October 2022, 
 
 My primary research interest lies at the intersection of Computer Science and Economics, including but not restricted to Algorithmic Mechanism Design, Fair Allocation, and Algorithms Under Uncertainty. I am also interested in other areas of Theoretical Computer Science such as Algorithms in Statistics.
 
-I also have many interests apart from research, including competitive programming, rhythm games, and guitars (see more [here]).
+I also have many interests apart from research, including competitive programming, rhythm games, and guitars (see more [here](/others/)).
