@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Trung Dang"
+title                    : "Đặng Đoàn Đức Trung"
 title_separator          : "-"
 name                     : &name "Trung Dang"
 description              : &description "Undergraduate Researcher"
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Trung Dang"
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   bio              : "Undergraduate Research Assistant"
   location         : "Purdue University"
   employer         :
