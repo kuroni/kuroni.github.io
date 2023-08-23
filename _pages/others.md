@@ -8,8 +8,8 @@ author_profile: true
 ## Competitive programming
 I am a fairly high-rated competitive programmer. My official achievements are:
 
-- 4th place at ICPC North America Championship 2020.
-- Qualifier for ICPC World Finals 2020, 2021, and 2022.
+- 4th place at ICPC North America Championship 2020 and 2023.
+- Qualifier for ICPC World Finals 2020, 2021, 2022, and 2023.
 - Round 3 qualifier for Meta Hacker Cup 2019, 2021, and 2022.
 - Round 3 qualifier for Google Code Jam 2020, 2021, and 2022.
 

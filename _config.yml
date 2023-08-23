@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Đặng Đoàn Đức Trung"
 title_separator          : "-"
 name                     : &name "Trung Dang"
-description              : &description "Undergraduate Researcher"
+description              : &description "Ph.D. student"
 url                      : https://kuroni.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "kuroni/kuroni.github.io"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Trung Dang"
   avatar           : "profile.jpg"
-  bio              : "Undergraduate Research Assistant"
-  location         : "Purdue University"
+  bio              : "Ph.D. student"
+  location         : "The University of Texas at Austin"
   employer         :
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=CA5tZl4AAAAJ"
-  email            : "dang28@purdue.edu"
+  email            : "dddtrung@cs.utexas.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
