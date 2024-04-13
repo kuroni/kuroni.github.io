@@ -27,4 +27,4 @@ group :jekyll_plugins do
   gem "webrick", "~> 1.8"
 end
 
-gem "webrick", "~> 1.7"
+gem "json", "~> 2.7"

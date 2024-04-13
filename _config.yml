@@ -21,7 +21,7 @@ repository               : "kuroni/kuroni.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Trung Dang"
   pronouns         : "he/him" # example: "she/her"  
   bio              : "Ph.D. Student"
