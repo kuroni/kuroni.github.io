@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: Competitive Programming
+description: about my competitive programming projects
 img: assets/img/12.jpg
 importance: 1
 category: work
