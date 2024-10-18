@@ -173,7 +173,6 @@ external_sources:
         published_date: 2024-05-01
       - url: https://wiki.vnoi.info/algo/trick/minkowski-sum
         published_date: 2024-07-03
-    tags: competitive-programming
   # - name: medium.com
   #   rss_url: https://medium.com/@al-folio/feed
   # - name: Google Blog
