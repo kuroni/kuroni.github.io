@@ -17,8 +17,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi! I am currently a second tear Ph.D. student at The University of Texas at Austin, advised by [Prof. Shuchi Chawla](https://www.cs.utexas.edu/~shuchi/). Before joining UT, I was as an undergraduate research assistant at Purdue University, working with [Prof. Alex Psomas](https://www.alexpsomas.com/) and [Prof. Paul Valiant](https://www.cs.purdue.edu/homes/pvaliant/).
+Hi! I am currently a second-year Ph.D. student at The University of Texas at Austin, advised by [Prof. Shuchi Chawla](https://www.cs.utexas.edu/~shuchi/). Before joining UT, I was as an undergraduate research assistant at Purdue University, working with [Prof. Alex Psomas](https://www.alexpsomas.com/) and [Prof. Paul Valiant](https://www.cs.purdue.edu/homes/pvaliant/).
 
 My primary research interest lies at the intersection of computer science and economics. As of now, I am primarily focusing on mechanism design, with a focus in prophet inequality and its variants. I am also interested in theoretical computer science in general, especially algorithmic statistics, machine learning theory, and combinatorial algorithms.
 
 I also have many interests apart from research, including competitive programming and rhythm games (see more in the [projects page](/projects/)).
+
+My full name in Vietnamese is Đặng Đoàn Đức Trung.

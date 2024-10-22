@@ -32,7 +32,7 @@ module ExternalPosts
     def process_entries(site, src, entries)
       entries.each do |e|
         puts "...fetching #{e.url}"
-        create_document(site, src['name'], e.url, {
+        create_document(site, src['name'], e['tags'], e.url, {
           title: e.title,
           content: e.content,
           summary: e.summary,
@@ -41,7 +41,7 @@ module ExternalPosts
       end
     end
 
-    def create_document(site, source_name, url, content)
+    def create_document(site, source_name, source_tags, url, content)
       # check if title is composed only of whitespace or foreign characters
       if content[:title].gsub(/[^\w]/, '').strip.empty?
         # use the source name and last url segment as fallback
@@ -57,6 +57,7 @@ module ExternalPosts
         path, { :site => site, :collection => site.collections['posts'] }
       )
       doc.data['external_source'] = source_name
+      doc.data['tags'] = source_tags
       doc.data['title'] = content[:title]
       doc.data['feed_content'] = content[:content]
       doc.data['description'] = content[:summary]
@@ -70,7 +71,7 @@ module ExternalPosts
         puts "...fetching #{post['url']}"
         content = fetch_content_from_url(post['url'])
         content[:published] = parse_published_date(post['published_date'])
-        create_document(site, src['name'], post['url'], content)
+        create_document(site, src['name'], post['tags'], post['url'], content)
       end
     end
 
@@ -86,7 +87,10 @@ module ExternalPosts
     end
 
     def fetch_content_from_url(url)
-      html = HTTParty.get(url).body
+      headers = {
+        'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36'
+      }
+      html = HTTParty.get(url, headers: headers).body
       parsed_html = Nokogiri::HTML(html)
 
       title = parsed_html.at('head title')&.text.strip || ''

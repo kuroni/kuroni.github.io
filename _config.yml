@@ -171,8 +171,12 @@ external_sources:
     posts:
       - url: https://wiki.vnoi.info/algo/trick/convex_greedy
         published_date: 2024-05-01
+        tags:
+          - competitive-programming
       - url: https://wiki.vnoi.info/algo/trick/minkowski-sum
         published_date: 2024-07-03
+        tags:
+          - competitive-programming
   # - name: medium.com
   #   rss_url: https://medium.com/@al-folio/feed
   # - name: Google Blog

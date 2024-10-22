@@ -16,7 +16,8 @@ pages = {106-119},
 numpages = {14},
 keywords = {metric, data synthesis, Privacy},
 location = {Cox's Bazar, Bangladesh},
-series = {NSysS '21}
+series = {NSysS '21},
+abbr = {NSysS}
 }
 
 @inproceedings{dang2024optimality,
@@ -25,15 +26,12 @@ series = {NSysS '21}
  editor = {A. Oh and T. Naumann and A. Globerson and K. Saenko and M. Hardt and S. Levine},
  pages = {4150--4176},
  publisher = {Curran Associates, Inc.},
- abstract = {
-    There is growing interest in improving our algorithmic understanding of fundamental statistical problems such as mean estimation, driven by the goal of understanding the fundamental limits of what we can extract from limited and valuable data. The state of the art results for mean estimation in $\mathbb{R}$ are 1) the optimal sub-Gaussian mean estimator by [Lee and Valiant, 2022], attaining the optimal sub-Gaussian error constant for all distributions with finite but unknown variance, and 2) the analysis of the median-of-means algorithm by [Bubeck, Cesa-Bianchi and Lugosi, 2013] and a matching lower bound by [Devroye, Lerasle, Lugosi, and Oliveira, 2016], characterizing the big-O optimal errors for distributions that have tails heavy enough that only a $1+\alpha$ moment exists for some $\alpha \in (0,1)$. Both of these results, however, are optimal only in the worst case. Motivated by the recent effort in the community to go ``beyond the worst-case analysis'' of algorithms, we initiate the fine-grained study of the mean estimation problem: Is it possible for algorithms to leverage \emph{beneficial} features/quirks of their input distribution to \emph{beat} the sub-Gaussian rate, without explicit knowledge of these features?
-
-  We resolve this question, finding an unexpectedly nuanced answer: ``Yes in limited regimes, but in general no''. Given a distribution $p$, assuming \emph{only} that it has a finite mean and absent any additional assumptions, we show how to construct a distribution $q_{n,\delta}$ such that the means of $p$ and $q$ are well-separated, yet $p$ and $q$ are impossible to distinguish with $n$ samples with probability $1-\delta$, and $q$ further preserves the finiteness of moments of $p$. Moreover, the variance of $q$ is at most twice the variance of $p$ if it exists. The main consequence of our result is that, no reasonable estimator can asymptotically achieve better than the sub-Gaussian error rate for any distribution, up to constant factors, which matches the worst-case result of [Lee and Valiant, 2022]. More generally, we introduce a new definitional framework to analyze the fine-grained optimality of algorithms, which we call ``neighborhood optimality'', interpolating between the unattainably strong ``instance optimality'' and the trivially weak admissibility/Pareto optimality definitions. As an application of the new framework, we show that the median-of-means algorithm is neighborhood optimal, up to constant factors. It is an open question to find a neighborhood-optimal estimator \emph{without} constant factor slackness.},
  title = {Optimality in Mean Estimation: Beyond Worst-Case, Beyond Sub-Gaussian, and Beyond $1 + \alpha$ Moments},
  url = {https://proceedings.neurips.cc/paper_files/paper/2023/file/0cddb777d3441326544e21b67f41bdc8-Paper-Conference.pdf},
  arxiv = {2311.12784},
  volume = {36},
- year = {2023}
+ year = {2023},
+  abbr={NeurIPS}
 }
 
 @article{chawla2024multi,
@@ -42,7 +40,8 @@ series = {NSysS '21}
   journal={arXiv preprint arXiv:2404.14679},
   arxiv={2404.14679},
   year={2024},
-  selected={true}
+  selected={true},
+  abbr={SODA}
 }
 
 @article{dang2024robust,
@@ -51,7 +50,8 @@ series = {NSysS '21}
   journal={arXiv preprint arXiv:2409.06014},
   year={2024},
   arxiv={2409.06014},
-  selected={true}
+  selected={true},
+  abbr={Manuscript}
 }
 
 @article{dang2023improving,
@@ -59,7 +59,8 @@ series = {NSysS '21}
   author={Dang, Trung and McKelvie, Walter and Valiant, Paul and Wang, Hongao},
   journal={arXiv preprint arXiv:2310.09408},
   arxiv={2310.09408},
-  year={2023}
+  year={2023},
+  abbr={Manuscript}
 }
 
 @article{azizzadenesheli2023reward,
@@ -68,5 +69,6 @@ series = {NSysS '21}
   journal={arXiv preprint arXiv:2307.05953},
   year={2023},
   arxiv={2307.05953},
-  selected={true}
+  selected={true},
+  abbr={Manuscript}
 }
