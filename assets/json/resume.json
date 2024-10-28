@@ -56,6 +56,15 @@
       "courses": ["Algorithmic Economics", "Theoretical CS Toolkit", "Randomized Algorithm"]
     }
   ],
+  "awards": [
+    {
+      "title": "Honorable Mention, CRA Outstanding Undergraduate Researcher Awards",
+      "date": "2023",
+      "awarder": "Computing Research Association",
+      "url": "https://cra.org/2023-outstanding-undergraduate-researcher-award-recipients/",
+      "summary": "The CRA Outstanding Undergraduate Researcher Awards program recognizes undergraduate students in North American colleges and universities who show outstanding potential in an area of computing research."
+    }
+  ],
   "volunteer": [
     {
       "organization": "VNOI",

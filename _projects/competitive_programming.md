@@ -1,81 +1,45 @@
 ---
 layout: page
 title: competitive programming
-description: competing, problemsetting, coaching, etc.
+description: competing, problem setting, coaching, etc.
 img: assets/img/bangladesh_icpc.jpg
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Competing
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+I have been doing competitive programming since 2016 (wow that's almost a decade ago!) My proudest achievement is qualifying for ICPC World Finals four times (despite there being a hard limit of two); this is due to COVID restrictions messing up the ICPC timeline :) My other achievements are:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+- 20th at ICPC World Finals 2021 and 31st at ICPC World Finals 2023.
+- Bronze Medal at ICPC North American Championship 2020 and 2023.
+- 4th place at Vietnam Team Selection Test 2018 and 2019.
+- Numerous Google Code Jam and Facebook Hacker Cup Round 3 appearances (no finals yet however).
+
+You can view my online presence [here](https://clist.by/coder/kuroni/), and my CP Hall of Fame site [here](https://cphof.org/profile/codeforces:Kuroni).
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-7 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bangladesh_icpc.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/bangladesh_plushies.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Purdue University at ICPC World Finals 2021 at Bangladesh, featuring possibly the best photo in existence.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite dang2024optimality %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Problem setting
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+I have set many contests/problems before. A non-comprehensive list of contests to which I have been a part of the problem setting team is:
+- [VNOI CUP](https://codeforces.com/blog/entry/132008): An open-age on-site competitive programming competition series for Vietnamese, highly regarded as the most prestigious contest of its kind. I have been the head of judge for the [2023](https://oj.vnoi.info/contest/vnoicup23_final_mirror) and [2024](https://oj.vnoi.info/contest/vnoicup24_final_mirror) series.
+- [ICPC Hue Regional 2023](https://icpcvn.github.io/2023/regional/scoreboard.html).
+- Codeforces: [Round 482](https://codeforces.com/contest/979), [Round 558](https://codeforces.com/contest/1163), [Round 616](https://codeforces.com/contest/1290), [Ozon Tech Challenge 2020](https://codeforces.com/contest/1305), [Global Round 9](https://codeforces.com/contest/1375), [Round 668](https://codeforces.com/contest/1404), [Round 715](https://codeforces.com/contest/1508), [Global Round 25](https://codeforces.com/contest/1951).
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Coaching
 
-{% raw %}
+I have been coaching [ICPC at UT Austin](https://www.cs.utexas.edu/~utpc/ICPC.html) since Fall 2023. We have had one ICPC World Finals appearance in 2024.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+I have also coached part-time for the Vietnamese IOI team in 2023 and 2024.
