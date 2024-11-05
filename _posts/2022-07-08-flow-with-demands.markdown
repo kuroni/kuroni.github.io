@@ -1,6 +1,8 @@
 ---
-title:  "A somewhat-not-short blog on flow with demands"
-date:   2022-07-08 10:00:00 -0700
+layout: post
+title: A somewhat-not-short blog on flow with demands
+date: 2022-07-08 10:00:00 -0700
+description: Flow with demands tutorial
 tags:
   - competitive-programming
 ---
