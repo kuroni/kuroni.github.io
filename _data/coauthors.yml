@@ -1,5 +1,5 @@
 "chawla":
-  - firstname: ['Shuchi', 'Chawla']
+  - firstname: ["Shuchi"]
     url: https://www.cs.utexas.edu/~shuchi/
 
 "psomas":
@@ -10,6 +10,6 @@
   - firstname: ["Paul"]
     url: https://www.cs.purdue.edu/homes/pvaliant/
 
-"zhiyi":
-  - firstname: ['Zhiyi', 'Huang']
+"huang":
+  - firstname: ["Zhiyi"]
     url: https://sterrrrrrr.github.io/
