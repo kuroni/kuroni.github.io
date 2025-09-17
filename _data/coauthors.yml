@@ -1,34 +1,41 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"chawla":
+  - firstname: ["Shuchi"]
+    url: https://www.cs.utexas.edu/~shuchi/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"psomas":
+  - firstname: ["Alex", "Alexandros"]
+    url: https://www.alexpsomas.com/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"valiant":
+  - firstname: ["Paul"]
+    url: https://www.cs.purdue.edu/homes/pvaliant/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"huang":
+  - firstname: ["Zhiyi"]
+    url: https://sterrrrrrr.github.io/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"rezvan":
+  - firstname: ["Rojin"]
+    url: https://rojinrezvan.github.io/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"kehne":
+  - firstname: ["Gregory"]
+    url: https://gregorykehne.com/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"wang":
+  - firstname: ["Yifan"]
+    url: https://litcwyf.github.io/
+  - firstname: ["Hongao"]
+    url: https://phijack.github.io/
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"mckelvie":
+  - firstname: ["Walter"]
+    url: https://www.waltmckelvie.com/
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"lee":
+  - firstname: ["Jasper"]
+    url: https://jasperchlee.github.io/
+
+"song":
+  - firstname: ["Maoyuan"]
+    url: https://maoyuans.github.io/

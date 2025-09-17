@@ -1,9 +1,9 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"SODA":
+  url: https://www.siam.org/conferences-events/siam-conferences/soda25/
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"NeurIPS":
+  url: https://neurips.cc/
 
-"Vision":
+"Manuscript":
   color: "#009f36"
