@@ -2,6 +2,10 @@
   url: https://www.siam.org/conferences-events/siam-conferences/soda25/
   color: "#00369f"
 
+"WINE":
+  url: https://wine2025.cs.rutgers.edu/
+  color: "#4077e3"
+
 "NeurIPS":
   url: https://neurips.cc/
 
