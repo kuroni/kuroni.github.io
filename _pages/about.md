@@ -22,13 +22,13 @@ announcements:
 
 latest_posts:
   enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new post items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I am currently a second-year Ph.D. student at The University of Texas at Austin, advised by [Prof. Shuchi Chawla](https://www.cs.utexas.edu/~shuchi/). Before joining UT, I was as an undergraduate research assistant at Purdue University, working with [Prof. Alex Psomas](https://www.alexpsomas.com/) and [Prof. Paul Valiant](https://www.cs.purdue.edu/homes/pvaliant/).
+Hi! I am currently a third-year Ph.D. student at The University of Texas at Austin, advised by [Prof. Shuchi Chawla](https://www.cs.utexas.edu/~shuchi/). Before joining UT, I was an undergraduate research assistant at Purdue University, working with [Prof. Alex Psomas](https://www.alexpsomas.com/) and [Prof. Paul Valiant](https://www.cs.purdue.edu/homes/pvaliant/).
 
-My primary research interest lies at the intersection of computer science and economics. As of now, I am primarily focusing on mechanism design, with a focus in prophet inequality and its variants. I am also interested in theoretical computer science in general, especially algorithmic statistics, machine learning theory, and combinatorial algorithms.
+My primary research interest lies at the intersection of computer science and economics. My main focus includes mechanism design, prophet inequality and its variants, and algorithmic statistics. I am also interested in theoretical computer science in general, including machine learning theory and combinatorial algorithms.
 
 I also have many interests apart from research, including competitive programming and rhythm games (see more in the [projects page](/projects/)).
 
