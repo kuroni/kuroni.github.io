@@ -2,35 +2,51 @@
 ---
 
 @inproceedings{li2021mgd,
-author = {Li, Zitao and Dang, Trung and Wang, Tianhao and Li, Ninghui},
-title = {MGD: A Utility Metric for Private Data Publication},
-year = {2021},
-isbn = {9781450387378},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3491371.3491385},
-doi = {10.1145/3491371.3491385},
-abstract = {Differential privacy has been accepted as one of the most popular techniques to protect user data privacy. A common way for utilizing private data under DP is to take an input dataset and synthesize a new dataset that preserves features of the input dataset while satisfying DP. A trade-off always exists between the strength of privacy protection and the utility of the final output: stronger privacy protection requires larger randomness, so the outputs usually have a larger variance and can be far from optimal. In this paper, we summarize our proposed metric for the NIST “A Better Meter Stick for Differential Privacy” competition&nbsp;[26], MarGinal Difference (MGD), for measuring the utility of a synthesized dataset. Our metric is based on earth mover distance. We introduce new features in our metric so that it is not affected by some small random noise that is unavoidable in the DP context but focuses more on the significant difference. We show that our metric can reflect the range query error better compared with other existing metrics. We introduce an efficient computation method based on the min-cost flow to alleviate the high computation cost of the earth mover’s distance.},
-booktitle = {Proceedings of the 8th International Conference on Networking, Systems and Security},
-pages = {106-119},
-numpages = {14},
-keywords = {metric, data synthesis, Privacy},
-location = {Cox's Bazar, Bangladesh},
-series = {NSysS '21},
-abbr = {NSysS}
+  author = {Li, Zitao and Dang, Trung and Wang, Tianhao and Li, Ninghui},
+  title = {MGD: A Utility Metric for Private Data Publication},
+  year = {2021},
+  isbn = {9781450387378},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3491371.3491385},
+  doi = {10.1145/3491371.3491385},
+  abstract = {Differential privacy has been accepted as one of the most popular techniques to protect user data privacy. A common way for utilizing private data under DP is to take an input dataset and synthesize a new dataset that preserves features of the input dataset while satisfying DP. A trade-off always exists between the strength of privacy protection and the utility of the final output: stronger privacy protection requires larger randomness, so the outputs usually have a larger variance and can be far from optimal. In this paper, we summarize our proposed metric for the NIST “A Better Meter Stick for Differential Privacy” competition&nbsp;[26], MarGinal Difference (MGD), for measuring the utility of a synthesized dataset. Our metric is based on earth mover distance. We introduce new features in our metric so that it is not affected by some small random noise that is unavoidable in the DP context but focuses more on the significant difference. We show that our metric can reflect the range query error better compared with other existing metrics. We introduce an efficient computation method based on the min-cost flow to alleviate the high computation cost of the earth mover's distance.},
+  booktitle = {Proceedings of the 8th International Conference on Networking, Systems and Security},
+  pages = {106-119},
+  numpages = {14},
+  keywords = {metric, data synthesis, Privacy},
+  location = {Cox's Bazar, Bangladesh},
+  series = {NSysS '21},
+  abbr = {NSysS}
 }
 
 @inproceedings{dang2024optimality,
- author = {Dang, Trung and Lee, Jasper and Song, Maoyuan and Valiant, Paul},
- booktitle = {Advances in Neural Information Processing Systems},
- editor = {A. Oh and T. Naumann and A. Globerson and K. Saenko and M. Hardt and S. Levine},
- pages = {4150--4176},
- publisher = {Curran Associates, Inc.},
- title = {Optimality in Mean Estimation: Beyond Worst-Case, Beyond Sub-Gaussian, and Beyond $1 + \alpha$ Moments},
- url = {https://proceedings.neurips.cc/paper_files/paper/2023/file/0cddb777d3441326544e21b67f41bdc8-Paper-Conference.pdf},
- arxiv = {2311.12784},
- volume = {36},
- year = {2023},
+  author = {Dang, Trung and Lee, Jasper and Song, Maoyuan and Valiant, Paul},
+  booktitle = {Advances in Neural Information Processing Systems},
+  editor = {A. Oh and T. Naumann and A. Globerson and K. Saenko and M. Hardt and S. Levine},
+  pages = {4150--4176},
+  publisher = {Curran Associates, Inc.},
+  title = {Optimality in Mean Estimation: Beyond Worst-Case, Beyond Sub-Gaussian, and Beyond 1 + α  Moments},
+  url = {https://proceedings.neurips.cc/paper_files/paper/2023/file/0cddb777d3441326544e21b67f41bdc8-Paper-Conference.pdf},
+  arxiv = {2311.12784},
+  volume = {36},
+  year = {2023},
+  abstract={
+  There is growing interest in improving our algorithmic understanding of fundamental statistical problems such as mean estimation, driven by the goal of understanding the fundamental limits of what we can extract from limited and valuable data.
+  The state of the art results for mean estimation in $\mathbb{R}$ are 1) the optimal sub-Gaussian mean estimator by [Lee and Valiant, 2022], attaining the optimal sub-Gaussian error constant for all distributions with finite but unknown variance, and 2) the analysis of the median-of-means algorithm by [Bubeck, Cesa-Bianchi and Lugosi, 2013] and a matching lower bound by [Devroye, Lerasle, Lugosi, and Oliveira, 2016], characterizing the big-O optimal errors for distributions that have tails heavy enough that only a $1+\alpha$ moment exists for some $\alpha \in (0,1)$.
+  Both of these results, however, are optimal only in the worst case.
+  Motivated by the recent effort in the community to go "beyond the worst-case analysis" of algorithms, we initiate the fine-grained study of the mean estimation problem:
+  Is it possible for algorithms to leverage *beneficial* features/quirks of their input distribution to *beat* the sub-Gaussian rate, without explicit knowledge of these features?
+
+  We resolve this question, finding an unexpectedly nuanced answer: "Yes in limited regimes, but in general no".
+  Given a distribution $p$, assuming  *only* that it has a finite mean and absent any additional assumptions,
+  we show how to construct a distribution $q_{n,\delta}$ such that the means of $p$ and $q$ are well-separated, yet $p$ and $q$ are impossible to distinguish with $n$ samples with probability $1-\delta$, and $q$ further preserves the finiteness of moments of $p$.
+  Moreover, the variance of $q$ is at most twice the variance of $p$ if it exists.
+  The main consequence of our result is that, no reasonable estimator can asymptotically achieve better than the sub-Gaussian error rate for any distribution, up to constant factors, which matches the worst-case result of [Lee and Valiant, 2022].
+  More generally, we introduce a new definitional framework to analyze the fine-grained optimality of algorithms, which we call "neighborhood optimality", interpolating between the unattainably strong "instance optimality" and the trivially weak admissibility/Pareto optimality definitions.
+  As an application of the new framework, we show that the median-of-means algorithm is neighborhood optimal, up to constant factors.
+  It is an open question to find a neighborhood-optimal estimator *without* constant factor slackness.
+},
   abbr={NeurIPS}
 }
 
@@ -43,6 +59,9 @@ abbr = {NSysS}
   organization={SIAM},
   arxiv={2404.14679},
   selected={true},
+  abstract={We study multi-buyer multi-item sequential item pricing mechanisms for revenue maximization with the goal of approximating a natural fractional relaxation -- the ex ante optimal revenue. We assume that buyers' values are subadditive but make no assumptions on the value distributions. While the optimal revenue, and therefore also the ex ante benchmark, is inapproximable by any simple mechanism in this context, previous work has shown that a weaker benchmark that optimizes over so-called "buy-many" mechanisms can be approximated. Approximations are known, in particular, for settings with either a single buyer or many unit-demand buyers. We extend these results to the much broader setting of many subadditive buyers. We show that the ex ante buy-many revenue can be approximated via sequential item pricings to within an $O(\log^2 m)$ factor, where $m$ is the number of items; a logarithmic dependence on $m$ is also necessary.
+
+  Our approximation is achieved through the construction of a new multi-dimensional Online Contention Resolution Scheme (OCRS), that provides an online rounding of the optimal ex ante solution. Chawla et. al [2023] previously constructed an OCRS for revenue for unit-demand buyers, but their construction relied heavily on the "almost single dimensional" nature of unit-demand values. Prior to that work, OCRSes have only been studied in the context of social welfare maximization for single-parameter buyers. For the welfare objective, constant-factor approximations have been demonstrated for a wide range of combinatorial constraints on item allocations and classes of buyer valuation functions. Our work opens up the possibility of a similar success story for revenue maximization.},
   abbr={SODA}
 }
 
@@ -53,6 +72,11 @@ abbr = {NSysS}
   year={2024},
   organization={IEEE},
   arxiv={2409.06014},
+  abstract={
+  We introduce a new model to study algorithm design under unreliable information, and apply this model for the problem of finding the uncorrupted maximum element of a list containing $n$ elements, among which are $k$ corrupted elements. Under our model, algorithms can perform black-box comparison queries between any pair of elements. However, queries regarding corrupted elements may have arbitrary output. In particular, corrupted elements do not need to behave as any consistent values, and may introduce cycles in the elements' ordering. This imposes new challenges for designing correct algorithms under this setting. For example, one cannot simply output a single element, as it is impossible to distinguish elements of a list containing one corrupted and one uncorrupted element. To ensure correctness, algorithms under this setting must output a set to make sure the uncorrupted maximum element is included.
+
+  We first show that any algorithm must output a set of size at least $\min\{n, 2k + 1\}$ to ensure that the uncorrupted maximum is contained in the output set. Restricted to algorithms whose output size is exactly $\min\{n, 2k + 1\}$, for deterministic algorithms, we show matching upper and lower bounds of $\Theta(nk)$ comparison queries to produce a set of elements that contains the uncorrupted maximum. On the randomized side, we propose a 2-stage algorithm that, with high probability, uses $O(n + k \polylog k)$ comparison queries to find such a set, almost matching the $\Omega(n)$ queries necessary for any randomized algorithm to obtain a constant probability of being correct.
+  },
   abbr={ISIT}
 }
 
@@ -62,6 +86,9 @@ abbr = {NSysS}
   journal={arXiv preprint arXiv:2310.09408},
   arxiv={2310.09408},
   year={2023},
+  abstract={Pearson's chi-squared test, from 1900, is the standard statistical tool for "hypothesis testing on distributions": namely, given samples from an unknown distribution $Q$ that may or may not equal a hypothesis distribution $P$, we want to return "yes" if $P=Q$ and "no" if $P$ is far from $Q$. While the chi-squared test is easy to use, it has been known for a while that it is not "data efficient", it does not make the best use of its data. Precisely, for accuracy $\eps$ and confidence $\delta$, and given $n$ samples from the unknown distribution $Q$, a tester should return "yes" with probability $>1-\delta$ when $P=Q$, and "no" with probability $>1-\delta$ when $|P-Q|>\eps$. The challenge is to find a tester with the *best* tradeoff between $\eps$, $\delta$, and $n$.
+
+We introduce a new tester, efficiently computable and easy to use, which we hope will replace the chi-squared tester in practical use. Our tester is found via a new non-convex optimization framework that essentially seeks to "find the tester whose Chernoff bounds on its performance are as good as possible". This tester is $1+o(1)$ optimal, in that the number of samples $n$ needed by the tester is within $1+o(1)$ factor of the samples needed by *any* tester, even non-linear testers (for the setting: accuracy $\eps$, confidence $\delta$, and hypothesis $P$). We complement this algorithmic framework with matching lower bounds saying, essentially, that "our tester is instance-optimal, even to $1+o(1)$ factors, to the degree that Chernoff bounds are tight". Our overall non-convex optimization framework extends well beyond the current problem and is of independent interest.},
   abbr={Manuscript}
 }
 
@@ -72,15 +99,23 @@ abbr = {NSysS}
   booktitle={International Conference on Web and Internet Economics},
   arxiv={2505.16054},
   selected={true},
+  abstract={We consider a combinatorial auction setting where buyers have fractionally subadditive (XOS) valuations over the items and the seller's objective is to maximize the social welfare. A prophet inequality in this setting bounds the competitive ratio of sequential allocation (often using item pricing) against the hindsight optimum. We study the dependence of the competitive ratio on the number of copies, $k$, of each item.
+
+  We show that the multi-unit combinatorial setting is strictly harder than its single-item counterpart in that there is a gap between the competitive ratios achieved by static item pricings in the two settings. However, if the seller is allowed to change item prices dynamically, it becomes possible to asymptotically match the competitive ratio of a single-item static pricing. We also develop a new non-adaptive anonymous multi-unit combinatorial prophet inequality where the item prices are determined up front but increase as the item supply decreases. Setting the item prices in our prophet inequality requires minimal information about the buyers' value distributions -- merely (an estimate of) the expected social welfare accrued by each item in the hindsight optimal solution suffices. Our non-adaptive pricing achieves a competitive ratio that increases strictly as a function of the item supply $k$.},
   abbr={WINE}
 }
 
-@articlinproceedingse{chawla2025commitment,
+@inproceedings{chawla2025commitment,
   title={Commitment Gap via Correlation Gap},
   author={Chawla, Shuchi and Christou, Dimitris and Dang, Trung},
   arxiv={2508.20246},
   booktitle={International Conference on Web and Internet Economics},
   year={2025},
+  abstract={Selection problems with costly information, dating back to Weitzman's Pandora's Box problem, have received much attention recently. We study the general model of Costly Information Combinatorial Selection (CICS) that was recently introduced by Chawla et al. [2024] and Bowers et al. [2025]. In this problem, a decision maker needs to select a feasible subset of stochastic variables, and can only learn information about their values through a series of costly steps, modeled by a Markov decision process. The algorithmic objective is to maximize the total value of the selection *minus* the cost of information acquisition. However, determining the optimal algorithm is known to be a computationally challenging problem.
+
+  To address this challenge, previous approaches have turned to approximation algorithms by considering a restricted class of *committing policies* that simplify the decision-making aspects of the problem and allow for efficient optimization. This motivates the question of bounding the *commitment gap*, measuring the worst case ratio in the performance of the optimal committing policy and the overall optimal. 
+
+  In this work, we obtain improved bounds on the commitment gap of CICS through a reduction to a simpler problem of Bayesian Combinatorial Selection where information is free. By establishing a close relationship between these problems, we are able to relate the commitment gap of CICS to ex ante free-order prophet inequalities. As a consequence, we obtain improved approximation results for CICS, including the well-studied variant of Pandora's Box with Optional Inspection under matroid feasibility constraints.},
   abbr={WINE}
 }
 
@@ -91,5 +126,8 @@ abbr = {NSysS}
   year={2023},
   arxiv={2307.05953},
   selected={true},
+  abstract={We study a fundamental problem in optimization under uncertainty. There are $n$ boxes; each box $i$ contains a hidden reward $x_i$. Rewards are drawn i.i.d. from an unknown distribution $\mathcal{D}$. For each box $i$, we see $y_i$, an unbiased estimate of its reward, which is drawn from a Normal distribution with known standard deviation $\sigma_i$ (and an unknown mean $x_i$). Our task is to select a single box, with the goal of maximizing our reward. This problem captures a wide range of applications, e.g. ad auctions, where the hidden reward is the click-through rate of an ad. Previous work in this model (Bax et al. [2012]) proves that the naive policy, which selects the box with the largest estimate $y_i$, is suboptimal, and suggests a linear policy, which selects the box $i$ with the largest $y_i - c \cdot \sigma_i$, for some $c > 0$. However, no formal guarantees are given about the performance of either policy (e.g., whether their expected reward is within some factor of the optimal policy's reward).
+    
+In this work, we prove that both the naive policy and the linear policy are arbitrarily bad compared to the optimal policy, even when $\mathcal{D}$ is well-behaved, e.g. has monotone hazard rate (MHR), and even under a "small tail" condition, which requires that not too many boxes have arbitrarily large noise. On the flip side, we propose a simple threshold policy that gives a constant approximation to the reward of a prophet (who knows the realized values $x_1, \dots, x_n$) under the same "small tail" condition. We prove that when this condition is not satisfied, even an optimal clairvoyant policy (that knows $\mathcal{D}$) cannot get a constant approximation to the prophet, even for MHR distributions, implying that our threshold policy is optimal against the prophet benchmark, up to constants. En route to proving our results, we show a strong concentration result for the maximum of $n$ i.i.d. samples from an MHR random variable that might be of independent interest.},
   abbr={Manuscript}
 }

@@ -34,12 +34,12 @@ You can view my online presence [here](https://clist.by/coder/kuroni/), and my C
 ## Problem setting
 
 I have set many contests/problems before. A non-comprehensive list of contests to which I have been a part of the problem setting team is:
-- [VNOI CUP](https://codeforces.com/blog/entry/132008): An open-age on-site competitive programming competition series for Vietnamese, highly regarded as the most prestigious contest of its kind. I have been the head of judge for the [2023](https://oj.vnoi.info/contest/vnoicup23_final_mirror) and [2024](https://oj.vnoi.info/contest/vnoicup24_final_mirror) series.
+- [VNOI CUP](https://codeforces.com/blog/entry/132008): An open-age on-site competitive programming competition series for Vietnamese, highly regarded as the most prestigious contest of its kind. I have been the head of judge for the [2023](https://oj.vnoi.info/contest/vnoicup23_final_mirror), [2024](https://oj.vnoi.info/contest/vnoicup24_final_mirror). and [2025](https://oj.vnoi.info/contest/vnoicup25_final_mirror) series.
 - [ICPC Hue Regional 2023](https://icpcvn.github.io/2023/regional/scoreboard.html).
-- Codeforces: [Round 482](https://codeforces.com/contest/979), [Round 558](https://codeforces.com/contest/1163), [Round 616](https://codeforces.com/contest/1290), [Ozon Tech Challenge 2020](https://codeforces.com/contest/1305), [Global Round 9](https://codeforces.com/contest/1375), [Round 668](https://codeforces.com/contest/1404), [Round 715](https://codeforces.com/contest/1508), [Global Round 25](https://codeforces.com/contest/1951).
+- Codeforces: [Round 482](https://codeforces.com/contest/979), [Round 558](https://codeforces.com/contest/1163), [Round 616](https://codeforces.com/contest/1290), [Ozon Tech Challenge 2020](https://codeforces.com/contest/1305), [Global Round 9](https://codeforces.com/contest/1375), [Round 668](https://codeforces.com/contest/1404), [Round 715](https://codeforces.com/contest/1508), [Global Round 25](https://codeforces.com/contest/1951), [Round 983](https://codeforces.com/contest/2032).
 
 ## Coaching
 
 I have been coaching [ICPC at UT Austin](https://www.cs.utexas.edu/~utpc/ICPC.html) since Fall 2023. We have had one ICPC World Finals appearance in 2024.
 
-I have also coached part-time for the Vietnamese IOI team in 2023 and 2024.
+I have also coached part-time for the Vietnamese IOI team since 2023.
