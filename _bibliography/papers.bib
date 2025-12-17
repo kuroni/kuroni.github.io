@@ -55,7 +55,7 @@
   author={Chawla, Shuchi and Christou, Dimitris and Dang, Trung and Huang, Zhiyi and Kehne, Gregory and Rezvan, Rojin},
   booktitle={Proceedings of the 2025 Annual ACM-SIAM Symposium on Discrete Algorithms},
   pages={1720--1757},
-  year={2024},
+  year={2025},
   organization={SIAM},
   arxiv={2404.14679},
   selected={true},
@@ -68,13 +68,13 @@
 @inproceedings{dang2024robust,
   title={Robust Max Selection},
   author={Dang, Trung and Huang, Zhiyi},
-  booktitle={Proceedings of the 2025 IEEE International Symposium on Information Theory},
-  year={2024},
-  organization={IEEE},
+  booktitle={2025 IEEE International Symposium on Information Theory (ISIT)},
+  pages={1--6},
+  year={2025},
+  organization={IEEE}
   arxiv={2409.06014},
   abstract={
   We introduce a new model to study algorithm design under unreliable information, and apply this model for the problem of finding the uncorrupted maximum element of a list containing $n$ elements, among which are $k$ corrupted elements. Under our model, algorithms can perform black-box comparison queries between any pair of elements. However, queries regarding corrupted elements may have arbitrary output. In particular, corrupted elements do not need to behave as any consistent values, and may introduce cycles in the elements' ordering. This imposes new challenges for designing correct algorithms under this setting. For example, one cannot simply output a single element, as it is impossible to distinguish elements of a list containing one corrupted and one uncorrupted element. To ensure correctness, algorithms under this setting must output a set to make sure the uncorrupted maximum element is included.
-
   We first show that any algorithm must output a set of size at least $\min\{n, 2k + 1\}$ to ensure that the uncorrupted maximum is contained in the output set. Restricted to algorithms whose output size is exactly $\min\{n, 2k + 1\}$, for deterministic algorithms, we show matching upper and lower bounds of $\Theta(nk)$ comparison queries to produce a set of elements that contains the uncorrupted maximum. On the randomized side, we propose a 2-stage algorithm that, with high probability, uses $O(n + k \polylog k)$ comparison queries to find such a set, almost matching the $\Omega(n)$ queries necessary for any randomized algorithm to obtain a constant probability of being correct.
   },
   abbr={ISIT}
