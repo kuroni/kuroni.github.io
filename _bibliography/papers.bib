@@ -98,7 +98,6 @@ We introduce a new tester, efficiently computable and easy to use, which we hope
   year={2025},
   booktitle={International Conference on Web and Internet Economics},
   arxiv={2505.16054},
-  selected={true},
   abstract={We consider a combinatorial auction setting where buyers have fractionally subadditive (XOS) valuations over the items and the seller's objective is to maximize the social welfare. A prophet inequality in this setting bounds the competitive ratio of sequential allocation (often using item pricing) against the hindsight optimum. We study the dependence of the competitive ratio on the number of copies, $k$, of each item.
 
   We show that the multi-unit combinatorial setting is strictly harder than its single-item counterpart in that there is a gap between the competitive ratios achieved by static item pricings in the two settings. However, if the seller is allowed to change item prices dynamically, it becomes possible to asymptotically match the competitive ratio of a single-item static pricing. We also develop a new non-adaptive anonymous multi-unit combinatorial prophet inequality where the item prices are determined up front but increase as the item supply decreases. Setting the item prices in our prophet inequality requires minimal information about the buyers' value distributions -- merely (an estimate of) the expected social welfare accrued by each item in the hindsight optimal solution suffices. Our non-adaptive pricing achieves a competitive ratio that increases strictly as a function of the item supply $k$.},
@@ -116,18 +115,21 @@ We introduce a new tester, efficiently computable and easy to use, which we hope
   To address this challenge, previous approaches have turned to approximation algorithms by considering a restricted class of *committing policies* that simplify the decision-making aspects of the problem and allow for efficient optimization. This motivates the question of bounding the *commitment gap*, measuring the worst case ratio in the performance of the optimal committing policy and the overall optimal. 
 
   In this work, we obtain improved bounds on the commitment gap of CICS through a reduction to a simpler problem of Bayesian Combinatorial Selection where information is free. By establishing a close relationship between these problems, we are able to relate the commitment gap of CICS to ex ante free-order prophet inequalities. As a consequence, we obtain improved approximation results for CICS, including the well-studied variant of Pandora's Box with Optional Inspection under matroid feasibility constraints.},
-  abbr={WINE}
+  abbr={WINE},
+  selected={true}
 }
 
-@article{azizzadenesheli2023reward,
+@inproceedings{azizzadenesheli2023reward,
   title={Reward Selection with Noisy Observations},
   author={Azizzadenesheli, Kamyar and Dang, Trung and Mehta, Aranyak and Psomas, Alexandros and Zhang, Qian},
   journal={arXiv preprint arXiv:2307.05953},
-  year={2023},
+  year={2026},
   arxiv={2307.05953},
   selected={true},
   abstract={We study a fundamental problem in optimization under uncertainty. There are $n$ boxes; each box $i$ contains a hidden reward $x_i$. Rewards are drawn i.i.d. from an unknown distribution $\mathcal{D}$. For each box $i$, we see $y_i$, an unbiased estimate of its reward, which is drawn from a Normal distribution with known standard deviation $\sigma_i$ (and an unknown mean $x_i$). Our task is to select a single box, with the goal of maximizing our reward. This problem captures a wide range of applications, e.g. ad auctions, where the hidden reward is the click-through rate of an ad. Previous work in this model (Bax et al. [2012]) proves that the naive policy, which selects the box with the largest estimate $y_i$, is suboptimal, and suggests a linear policy, which selects the box $i$ with the largest $y_i - c \cdot \sigma_i$, for some $c > 0$. However, no formal guarantees are given about the performance of either policy (e.g., whether their expected reward is within some factor of the optimal policy's reward).
-    
+  
 In this work, we prove that both the naive policy and the linear policy are arbitrarily bad compared to the optimal policy, even when $\mathcal{D}$ is well-behaved, e.g. has monotone hazard rate (MHR), and even under a "small tail" condition, which requires that not too many boxes have arbitrarily large noise. On the flip side, we propose a simple threshold policy that gives a constant approximation to the reward of a prophet (who knows the realized values $x_1, \dots, x_n$) under the same "small tail" condition. We prove that when this condition is not satisfied, even an optimal clairvoyant policy (that knows $\mathcal{D}$) cannot get a constant approximation to the prophet, even for MHR distributions, implying that our threshold policy is optimal against the prophet benchmark, up to constants. En route to proving our results, we show a strong concentration result for the maximum of $n$ i.i.d. samples from an MHR random variable that might be of independent interest.},
-  abbr={Manuscript}
+  booktitle={International Conference on Algorithmic Learning Theory},
+  organization={PMLR},
+  abbr={ALT}
 }

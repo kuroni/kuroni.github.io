@@ -9,5 +9,11 @@
 "NeurIPS":
   url: https://neurips.cc/
 
+"ISIT":
+  url: https://ieee-isit.org/
+
+"ALT":
+  url: https://algorithmiclearningtheory.org/
+
 "Manuscript":
   color: "#009f36"
