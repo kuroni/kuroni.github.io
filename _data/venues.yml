@@ -1,9 +1,17 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"SODA":
+  url: https://www.siam.org/conferences-events/siam-conferences/soda25/
 
-"PhysRev":
-  url: https://journals.aps.org/
+"WINE":
+  url: https://wine2025.cs.rutgers.edu/
 
-"Vision":
+"NeurIPS":
+  url: https://neurips.cc/
+
+"ISIT":
+  url: https://ieee-isit.org/
+
+"ALT":
+  url: https://algorithmiclearningtheory.org/
+
+"Manuscript":
   color: "#009f36"

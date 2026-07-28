@@ -1,0 +1,14 @@
+{
+  "features": {
+    "ghcr.io/devcontainers-extra/features/prettier:1.0.2": {
+      "version": "1.0.2",
+      "resolved": "ghcr.io/devcontainers-extra/features/prettier@sha256:be8a83826ac496bd1e298ecf1052e600bdddd8ef3248ca630b53a9bdea3d3d76",
+      "integrity": "sha256:be8a83826ac496bd1e298ecf1052e600bdddd8ef3248ca630b53a9bdea3d3d76"
+    },
+    "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
+      "version": "1.0.2",
+      "resolved": "ghcr.io/rocker-org/devcontainer-features/apt-packages@sha256:87a4d7750a596a5db034ba8508782f31aebdc2ffe955c66aaecb33d9de2ecdae",
+      "integrity": "sha256:87a4d7750a596a5db034ba8508782f31aebdc2ffe955c66aaecb33d9de2ecdae"
+    }
+  }
+}
