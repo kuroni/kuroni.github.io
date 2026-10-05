@@ -15,7 +15,7 @@ nav_order: 2
 
 <div class="publications">
 
-{% bibliography -f {{ site.scholar.bibliography }} -q @*[abbr=Manuscript]* --group_by type --sort_by year --order descending %}
+{% bibliography -f {{ site.scholar.bibliography }} -q @*[abbr=Manuscript]* --group_by type %}
 {% bibliography -f {{ site.scholar.bibliography }} -q @*[abbr!=Manuscript]* %}
 
 </div>
